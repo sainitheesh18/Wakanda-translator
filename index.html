@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <style>
+        textarea{
+            width: 80%;
+            height: 10vh;
+            margin: auto;
+            display: block;
+            padding-bottom:  3rem;
+            border-color:blue;
+        }
+        #output{
+            border: 1px solid black;
+            height: 10vh;
+            width: 60%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        header{
+            border: 1px ;
+            height: 10vh;
+            margin: 1rem;
+            background-color:goldenrod;
+            padding-bottom: 2.5rem;
+        }
+        footer{
+            background-color: brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <p style="text-align: center;font-size: xx-large;">Wakanda Translator</p>
+    </header>
+
+    <div style="display: block;margin: auto;">
+        <img style="display: block;margin: auto;max-width: 500px;" src="images/Blackpanther.jpg">
+        <h1 style="text-align: center;">WAKANDA forever</h1>
+        <h2 style="text-align: center;">Rest in Peace Chadwick Bose Man</h2>
+    </div>
+
+    <section style="padding-top: 2rem;">
+    <textarea id="text-input" placeholder="Enter your text here,we will convert it"></textarea></section>
+
+    <section style="padding-top: 2rem;">
+    <button id="btn-translate" style="background-color:chartreuse;padding: 0.5rem 1rem;font-size:large;margin-left: auto;margin-right: auto;display: block;">Translate</button></section>
+
+    <div style="font-size: larger;padding-left: 9rem;padding-top: 2rem;padding-bottom: 2rem;">Output will be displayed here 👇</div>
+    <div id="output" style="display: block;margin: auto;width: 70%;height: 12vh;"></div>
+
+    <footer>
+        <p style="text-align: center;padding: 3rem;color: whitesmoke;">About: This was a fun translation which converts the given text to Wakanda language. As a huge marvel fan I designed this page to pay my tribute to one of the greats"Chadwick BoseMan" who had recently passed away .</p>
+        <p style="text-align: center;padding-bottom: 3rem;">Creations by Sainitheeshreddy  $$</p>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
